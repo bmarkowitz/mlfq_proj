@@ -110,7 +110,7 @@ class Scheduler:
             for proc in self.l1:
                 proc.wait_time += 1
         if self.l2:
-            for proc in self.l1:
+            for proc in self.l2:
                 proc.wait_time += 1
         if self.l3:
             for proc in self.l3:
